@@ -114,7 +114,7 @@ export default function About() {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-12">
             {[
               { name: 'Dr. Elena Hiro', role: 'Head of School', img: 'https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&q=80&w=1976' },
-              { name: 'Prof. Marcus Vane', role: 'Director of Academics', img: 'https://images.unsplash.com/photo-1544717297-fa154daaf762?auto=format&fit=crop&q=80&w=2070' },
+              { name: 'Prof. Marcus Vane', role: 'Director of Academics', img: 'https://plus.unsplash.com/premium_photo-1664300900349-afd61c20f8b8?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D' },
               { name: 'Sarah Jenkins', role: 'Dean of Students', img: 'https://images.unsplash.com/photo-1551836022-d5d88e9218df?auto=format&fit=crop&q=80&w=2070' },
             ].map((person, i) => (
               <div key={person.name} className="space-y-4 group">
